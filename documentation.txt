@@ -1,0 +1,23 @@
+Tools used:
+Sublime text, Chrome Developer tools, GitHub
+
+Web Development languages:
+HTML5, CSS3, Bootstrap, Vanilla JavaScript(Plain)
+
+Functionality:
+4 blue buttons are to notify the required coins.
+Inout field is for user to input a value after clicking on Calculate button.
+
+The JavaScript code runs in a way that, when user enters a coin,
+the code checks if the value is less than 25 or greater than 25.
+And accordingly, if value is less than 25, the coin required starts from penny.nickels or
+dimes and if greater than 25, it starts from quarters.
+
+For, notifying on the 4 blue buttons, notify.js is implemented but it is not working as
+expected.
+So, for now, I am displaying the results, I have used a <p> tag.
+
+E.g:
+
+If user enters 18
+Output is: Required coins is 1 dime 1 nickel and 3 pennies

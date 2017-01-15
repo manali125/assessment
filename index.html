@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>NCSoft Interview Assessment</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<body>
+	<!-- jumbotron container -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1 align="center">Coin Counter</h1>
+		</div>
+	</div>
+	<!-- buttons to show count -->
+	<div id="count">
+    <div class="container keys">
+	<div class="row">
+        <div class="col-md-3">
+		    <button class="btn btn-default orange-circle-button" value="25"  id="quarter">25<br/><br /></button>
+	
+        </div>   
+         <div class="col-md-3">
+		    <button class="btn btn-default orange-circle-button" value="10" id="dime">10<br/><br/></button>
+	    </div>  
+    </div>
+</div><br><br>
+	 <div class="container keys">
+	 <div class="row">
+        <div class="col-md-3">
+		    <button class="btn btn-default orange-circle-button" value="5" id="nickel">5<br/><br /></button>
+	
+        </div>   
+         <div class="col-md-3">
+		    <button class="btn btn-default orange-circle-button" value="1" id="penny">1<br/><br /></button>
+        </div> 
+	</div><br><br>
+</div>
+</div>
+<!-- input field -->
+<div class="container screen" align="center">
+	<input type="text" name="text" class="input-lg" id="input">
+</div><br><br>
+<!-- calculate button -->
+<div class="container" align="center">
+      <button class="btn btn-lg btn-primary" id="calculate">Calculate</button>
+</div>
+<!-- temporary display of number of coins -->
+<div>
+   <strong><p id="demo" align="center"></p></strong>
+</div>
+<script type="text/javascript" src="js/algo.js"></script>
+</body>
+</html>
